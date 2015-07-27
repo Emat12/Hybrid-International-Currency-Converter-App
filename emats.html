@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Emats Massawe</title>
+    
+     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <link rel="stylesheet" href="css/jquery.mobile-1.2.0.min.css" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery.mobile-1.2.0.min.js"></script>
+
+    <script src="cordova.js"> </script>
+   
+    <script>
+        $(document).on('pagebeforecreate orientationchange', updateIcons);
+        $(document).one('deviceready', initApplication);
+        
+     
+    </script>
+    
+    
+</head>
+    <body>
+    <div id="emats-page" data-role="page">
+        <header data-role="header">
+<!--<a href="index.html" data-icon="back" data-iconpos="notext" data-rel="back" title="Go back"  data-prefetch="prefetch" data-transition="flip" class="ui-btn-right">Back</a>
+-->
+             <a href="index.html" data-icon="back" data-iconpos="notext" title="Go back" data-prefetch="prefetch" class="ui-btn-right" data-transition="flip">Back</a>
+            
+            
+                                                                    
+    <h1>  Emats Massawe </h1>     
+        
+        </header>
+                        
+        <div id="content" data-role="content">
+        <div class="person">
+            <figure class="photo">
+            <img src="images/ematsfoto.jpg" alt="Photo of Emats De Massawe" >
+                <figcaption>Emats Massawe</figcaption>
+            
+            </figure>
+            <article>
+            <p>
+            I'm a Tanzanian Software and web/app developer who has master degree in Computer Science and more than 2 years' experience programming for the web HTML5, CSS3 , Javascript, WAMP stack and frameworks like JQuery, AngularJS,JQuery Mobile, Cordova(PhoneGap). My interests also include Web security, web accessibilities, SEO, Joomla and WordPress.I have a great passion in web technologies!
+            
+            </p>
+            <p>
+            Currently, I'm self-employed working with the cited web technologies and I'm also a regular contributor to the Git, where I write some open source code projects and articles. The articles can be found in the following links:
+                <a href="http://infercraft.com/en/blogs" target="_blank">Joomla vs WorPress Framework</a>,
+            
+              <a href="http://infercraft.com/en/blogs" target="_blank">What does a well designed website do?</a>,
+               <a href="http://infercraft.com/en/blogs" target="_blank">Top 10 Tricks of creating a professinal websites</a>
+                <a href="http://infercraft.com/en/blogs" target="_blank">Why you should use the frawork while planning to develop a website?</a>
+            
+            </p>
+            </article>
+            <article>
+            <h2>Contacts</h2>
+                <ul data-role="listview" data-inset="true">
+                    <li>
+                        <a href="http://www.infercraft.com" target="_blank">
+                        <img src="images/infercraftlogo.jpg" alt="INFERCRAFT Technologies">
+                            Visit my company website:www.infercraft.com
+                        </a>
+                    </li>
+                    <li>
+                <a href="mailto:emmassawe@infercraft.com" target="_blank">
+                    <img src="images/email-icon.png" alt="Email icon" >
+                    
+                    Drop me an email (alternative email address):emmassawe@gmail.com
+                     </a>
+                </li>
+                    <li >
+                    <a href="http://twitter.com/infercraft" target="_blank">
+                        <img src="images/twitter-icon.png" alt="Twitter Icon">
+                        Follow me on Twitter (@Infercraft)
+                        </a>
+                    </li>
+                    <li>
+                    <a href="https://www.linkedin.com/company/infercraft-techs" target="_blank">
+                        <img src="images/linkedin-icon.png" alt="Linkedin Icon">
+                        View my company profile at LinkedIn
+                        </a>
+                    
+                    </li>
+                    <li>
+                    <a href="http://github.org/Emat12" target="_blank">
+                      <img src="images/github-icon.png"  alt="Git icon" >
+                           Visit my repositories on github (Emat12)
+                     </a>
+                    </li>
+                </ul>
+            
+            </article>
+            
+            </div>
+            
+        </div>
+        
+         <footer data-role="footer">
+    <h3 id="copyright-title">&copy; Designed by INFERCRAFT Techs.</h3>
+        <a id="credit-button" href="index.html" data-icon="info" data-iconpos="notext" data-prefetch="prefetch" data-transition="flip" class="ui-btn-right">Credits</a>
+    </footer>
+        
+        </div>
+   
+    
+    </body>
+    
+
+</html>
